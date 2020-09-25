@@ -5,7 +5,10 @@ def square_array(array)
   index = 0
   
   while index < array.length do 
-    new_array << array[index] * array[index]
+    new_array << array[index] * array
+    index += 1 
+  end
+  new_array
   
 end
 
